@@ -1,0 +1,561 @@
+**********  Main.html ****************************************************************************
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>IEKART</title>
+</head>
+<body>
+  <div class=""> 
+    <nav class="nav-bar">
+      
+        <p class="nav-img">IEKART</p>
+
+      <div>
+        <ul class="unordered">
+          <a href=""> <li class="list-element" >HOME</li></a>
+          <a href="details.html"> <li class="list-element" >DETAILS</li></a>
+          <a href="submitted.html"> <li class="list-element" >CONTACT US</li></a>
+        </ul>
+      </div>
+    </nav> 
+
+    <div class="nav-bottom bg-container">
+      <p class="para">IEKART's STORE !</p>
+      <div class="btn-cont">
+        <a href="login.html"><button class="login">
+          Login
+        </button></a>
+        <a href="signin.html" ><button class="signup">Sign up</button></a>
+      
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+**********************************************    style.css     *************************************************************************
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+}
+
+
+.bg-container{
+  background-image: url("https://img.freepik.com/free-photo/abstract-blur-supermarket_74190-5265.jpg?size=626&ext=jpg&ga=GA1.2.780967758.1640015694");
+  height: 100vh;
+  background-size: cover;
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+.nav-img{
+  font-family: "roboto";
+  font-weight:99900px;
+  padding-right: 45px;
+  font-size: 16px;
+  color: white;
+  padding-left: 29px;
+
+}
+
+.unordered{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+.list-element{
+  font-family: "roboto";
+  font-weight: 600px;
+  padding-right: 45px;
+  font-size: 16px;
+  color: white;
+}
+
+.nav-bottom{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.para{
+  font-family: "roboto";
+  font-weight: 8700;
+  padding-right: 35px;
+  font-size: 86px;
+  color:black;
+}
+.login{
+  font-family: "roboto";
+  font-weight: 500px;
+  height: 60px;
+  width: 110px;
+  font-size: 15px;
+  color:black;
+  border: 0;
+  background-color: yellow;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+.signup{
+  font-family: "roboto";
+  font-weight: 500px;
+  height: 60px;
+  width: 110px;
+  font-size: 15px;
+  color: black;
+  border: 3 solid;
+  border-color: yellow;
+  background-color: transparent;
+  border-radius: 12px;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+***********************************                 details.html ********************************************************************************************
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="details.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    <div class="details-bg">
+        <div class="top">
+        <div class="top-card"></div>
+        <div >
+            <a href="main.html"><button class="back1"> <-Back </button></a>
+            
+        </div>
+    </div>
+        <div class="sub-left">
+        <div class="sub-card">
+            <div class="small">
+                <p class="p">Electronics</p>
+                <a href="#" ><p class="p1">Link -></p></a>
+                
+            </div>
+            <div class="small">
+                <p class="p">Clothing</p>
+                <a href="#" >     <p class="p1">Link -></p></a>
+            </div>
+        </div>
+        <div class="sub-card">
+            <div class="small">
+                <p class="p">Accessories</p>
+                <a href="#" > <p class="p1">Link -></p></a>
+            </div>
+            <div class="small">
+                <p class="p">Toys</p>
+                <a href="#" >  <p class="p1">Link -></p></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ******************************************            details.css   *******************************************************************************
+  
+  
+  
+  
+  *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.details-bg{
+    background-image: url("https://img.freepik.com/free-vector/abstract-classic-blue-screensaver_23-2148421853.jpg?w=996&t=st=1663290631~exp=1663291231~hmac=608d32efaa4d33b263f27109a352454d166bd2a2186d52dce69721a746a64fa8");
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+}
+.top-card{
+    background-image: url("https://img.freepik.com/free-vector/vector-illustration-shopping-online-concept-with-mobile-phone-order-product-package-shpping-bag_1150-58766.jpg?w=900&t=st=1663290024~exp=1663290624~hmac=032d1929ad3407cb7c4be04cc028d85b417ca4d3d8fff95884b3d736cabde9f5");
+    height: 76vh;
+    width: 50vw;
+
+    background-size: cover;
+    border-radius: 30px;
+    margin-left: 50px;
+
+}
+.sub-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sub-card{
+    display: flex;
+    flex-direction: row;
+}
+.small{
+    background-color: pink;
+    margin: 80px;
+    height: 140px;
+    width: 180px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+}
+.p{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 32px;
+    
+    color: black;
+}
+.p1{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 18px;
+    color: blue;
+}
+.back1{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px; 
+}
+
+
+
+  
+  
+  
+  ***************************************************            login.html                 ****************************************************************************
+  
+  
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style-login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <div class="bg">
+    <form class="form-cont">
+        <p class="login-para"> IEKART's Login</p>
+        <label id="label" for="name" class="input-element">NAME</label>
+        <input id="name" minlength="9" type="text" class="input" placeholder="Enter your name"/>
+        <label id="label2" for="passed" class="input-element">PASSWORD</label>
+        <input id="passed" type="password" class="input" placeholder="Enter your password"/>
+
+        <div>
+            <button class="submit-btn" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+    
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ***********************************************************          signin.css         *****************************************************************************
+  
+  
+  
+  
+  
+  
+  
+  
+  *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+
+
+.form-cont{
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 28px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.login-para{
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+}
+.input-element{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 12px;
+    color: black;
+    
+}
+.input{
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: 25px;
+    width: 600px;
+    margin-top: 12px;
+    padding: 10px;
+    
+}
+.submit-btn{
+    font-family: "roboto";
+  font-weight: 500px;
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  font-size: 15px;
+  color:white;
+  border: 0;
+  background-color: blue;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+.bg{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ************************************************       signin.html   *******************************************************************************
+  
+  
+  
+  
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="signin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+</head>
+<body>
+    <div class="bg">
+    <form class="form-cont">
+        <p class="login-para"> SIGN UP</p>
+        <label id="label" for="name" class="input-element">NAME</label>
+        <input id="name" type="text" class="input" placeholder="Enter your name"/>
+        <label id="label" for="name" class="input-element">AGE</label>
+        <input id="name" type="text" class="input" placeholder="Enter your age"/>
+        <label id="label" for="name" class="input-element">GENDER</label>
+        <input id="name" type="text" class="input" placeholder="Enter your gender"/>
+        <label id="label" for="name" class="input-element">PLACE</label>
+        <input id="name" type="text" class="input" placeholder="Enter your place"/>
+        
+
+        <div>
+            <button class="submit-btn">Submit</button>
+        </div>
+    </form>
+</div>
+    
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ********************************************            submitted.html   *******************************************************************************
+  
+  
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="submitted.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="more-bg">
+        
+        <h1 class="more-head">CONTACT US</h1>
+        <p class="more-para"><a href="#">
+            Email : IEKARTDhanushya@gmail.com</a>
+           </p>
+           <p class="more-para">Contact : 123456789</p>
+           <p class="more-para">Surampalem,AP</p>
+    </div>
+</body>
+</html>
+  
+  
+  
+  ***********************************************     submitted.css   *****************************************************************************
+  
+  
+  
+  
+  
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+.more-bg{
+    background-image: url("details-img.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.more-head{
+    font-family: roboto;
+    font-weight: 800;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+.more-para{
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+************  THE END  ********************************
+
+
+
+
+
+
+
+
